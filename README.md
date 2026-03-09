@@ -1,2 +1,82 @@
 # supply-chain-analytics-ml
  Machine Learning project for supply chain analytics and delivery delay prediction
+# Supply Chain Analytics & Delivery Delay Prediction
+
+## Project Overview
+
+This project applies machine learning techniques to analyze supply chain logistics data and predict delivery delays. The goal is to help businesses identify factors causing shipment delays and improve logistics planning.
+
+## Dataset
+
+The dataset used in this project is the **DataCo Global Supply Chain Dataset** containing order information, shipping data, product details, and customer data.
+
+Key columns include:
+
+* Shipping Mode
+* Order Region
+* Product Price
+* Order Item Quantity
+* Days for shipment (scheduled)
+* Days for shipping (real)
+
+## Project Objectives
+
+1. Predict late deliveries using classification models.
+2. Forecast product demand using regression models.
+3. Identify key factors influencing logistics delays.
+4. Generate visual insights for supply chain performance.
+
+## Machine Learning Models
+
+### Delivery Delay Prediction (Classification)
+
+Models compared:
+
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Logistic Regression | 97.8%    |
+| Decision Tree       | 94.7%    |
+| Random Forest       | 97.5%    |
+| XGBoost             | 97.8%    |
+
+### Demand Forecasting (Regression)
+
+Model used:
+
+* Random Forest Regressor
+
+Evaluation metric:
+
+Mean Absolute Error (MAE) ≈ **0.74**
+
+## Key Insights
+
+* Delivery delays are strongly influenced by the difference between scheduled shipping days and actual shipping days.
+* Shipping mode significantly impacts delivery performance.
+* Seasonal demand patterns influence order quantities.
+
+## Tools & Libraries
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* Matplotlib
+* Seaborn
+
+## Project Structure
+
+```
+supply-chain-analytics-ml
+│
+├── Supply_Chain_Analytics_&_Delivery_Delay_Prediction.ipynb
+├── requirements.txt
+└── README.md
+```
+
+## Future Improvements
+
+* Build a real-time logistics monitoring dashboard
+* Deploy the model using a web application
+* Integrate real-time supply chain data
