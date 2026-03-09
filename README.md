@@ -11,14 +11,6 @@ The dataset used in this project is the **DataCo Global Supply Chain Dataset** c
 Download it from Kaggle:
 https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 
-## Feature Importance
-
-![Feature Importance](feature_importance.png)
-
-## Demand Forecasting
-
-![Demand Prediction](demand_prediction.png)
-
 Key columns include:
 
 * Shipping Mode
@@ -89,3 +81,11 @@ supply-chain-analytics-ml
 * Build a real-time logistics monitoring dashboard
 * Deploy the model using a web application
 * Integrate real-time supply chain data
+
+  ## Feature Importance
+
+![Feature Importance](feature_importance.png)
+
+## Demand Forecasting
+
+![Demand Prediction](demand_prediction.png)
