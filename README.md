@@ -1,7 +1,6 @@
-# supply-chain-analytics-ml
- Machine Learning project for supply chain analytics and delivery delay prediction
 # Supply Chain Analytics & Delivery Delay Prediction
-
+ Machine Learning project for supply chain analytics and delivery delay prediction
+ 
 ## Project Overview
 
 This project applies machine learning techniques to analyze supply chain logistics data and predict delivery delays. The goal is to help businesses identify factors causing shipment delays and improve logistics planning.
