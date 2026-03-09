@@ -8,6 +8,8 @@ This project applies machine learning techniques to analyze supply chain logisti
 ## Dataset
 
 The dataset used in this project is the **DataCo Global Supply Chain Dataset** containing order information, shipping data, product details, and customer data.
+Download it from Kaggle:
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis
 
 Key columns include:
 
